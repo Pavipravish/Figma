@@ -1,7 +1,7 @@
 # Ex09 Event Registration Web Application
-# Date:09/05/2025
-# NAME;PRAVISH.J
-# REF NO: 212224040249
+# Date:19.05.2025
+# NAME : PRAVISH.J
+# REF NO 212224040249
 # AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -31,333 +31,358 @@ Publish the website in the given URL.
 Figma
 
 # CODE:
-``` python
-Home page
 
+PAGE 1:
+```
+HTML
 <div class="container--0-">
-  <img src="page 1.png">
+  <img
+    src=""
+  />
+  <div class="text-0-1-2">FRESHER’S</div>
+  <div class="text-0-1-3">PARTY</div>
+  <div class="text-0-1-4">You are invited to join us for a FRESHER’S DAY</div>
+  <div class="text-0-1-5">On Monday</div>
+  <div class="text-0-1-6">JUNE|22|2025</div>
+  <div class="text-0-1-7">____VENUE___</div>
+  <div class="text-0-1-8">MAJESTORIUM HALL</div>
+  <div class="text-0-1-9">
+    This is the <br />start of something<br />
+    beautiful
+  </div>
+</div>
 
+CSS
 .container--0- {
   position: absolute;
-  left: -275px;
-  top: -520px;
-  width: 440px;
-  height: 956px;
-  background-color: #ffffff;
+  left: -201px;
+  top: -461px;
+  width: 402px;
+  height: 874px;
+  background-color: #dea1ddb0;
   justify-content: start;
   align-items: start;
 }
-.text-0-1-3 {
-  width: 295px;
-  height: 114px;
-  color: #db5d5d;
+.text-0-1-2 {
+  width: 200px;
+  height: 48px;
+  color: #b22996;
   font-size: 40px;
-  font-family: Tiro Tamil, "Regular";
+  font-family: Irish Grover, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-3 {
+  width: 153px;
+  height: 55px;
+  color: #b22996;
+  font-size: 40px;
+  font-family: Irish Grover, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-4 {
+  width: 358px;
+  height: 98px;
+  color: #b22996;
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-5 {
-  width: 144px;
-  height: 39px;
-  color: #1799f7;
-  font-size: 36px;
-  font-family: JejuGothic, "Regular";
+  width: 175px;
+  height: 15px;
+  color: #60044e;
+  font-size: 24px;
+  font-family: Inter, "Extra Light Italic";
+  font-weight: 200;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-6 {
+  width: 298px;
+  height: 57px;
+  color: #8d878c;
+  font-size: 40px;
+  font-family: Inter, "Extra Light Italic";
+  font-weight: 200;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-7 {
+  width: 101px;
+  height: 19px;
+  color: #0c010af7;
+  font-size: 16px;
+  font-family: Inter, "Extra Light Italic";
+  font-weight: 200;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-8 {
+  width: 329px;
+  height: 30px;
+  color: #450538f7;
+  font-size: 24px;
+  font-family: Ibarra Real Nova, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-9 {
+  width: 213px;
+  height: 183px;
+  color: #b22996;
+  font-size: 48px;
+  font-family: Inspiration, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+```
+PAGE 2:
+```
+HTML
+<div class="container--0-">
+  <img
+    src=""
+  />
+  <div class="text-0-1-4">
+    Fresher’s<br />
+    Day
+  </div>
+  <div class="text-0-1-5">Blessings</div>
+  <div class="text-0-1-6">Dr.N.M.Veeraiyan</div>
+  <div class="text-0-1-7">
+    Founder President &#x26; Chancellor,<br />
+    SIMATS
+  </div>
+  <div class="text-0-1-8">Divine Presence</div>
+  <div class="text-0-1-9">Dr.V.VijayaChamundeeswari</div>
+  <div class="text-0-1-10">Principal,<br />Saveetha Engineering</div>
+  <div class="text-0-1-11">
+    We cordially invite all the<br />
+    Parents &#x26; Students <br />
+    for celebration of <br /><br />
+  </div>
+</div>
+<div class="text--0-"></div>
+
+CSS
+.container--0- {
+  position: absolute;
+  left: -201px;
+  top: -437px;
+  width: 402px;
+  height: 874px;
+  background-color: #69c2dd75;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-1 {
+  height: 76px;
+  color: #000000;
+  font-size: 32px;
+  font-family: Fira Sans Condensed, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-2 {
+  height: 38px;
+  color: #185e74b8;
+  font-size: 32px;
+  font-family: Inria Sans, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-4 {
+  width: 180px;
+  height: 148px;
+  color: #0d3d5bd6;
+  font-size: 64px;
+  font-family: Island Moments, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-5 {
+  width: 109px;
+  height: 36px;
+  color: #535cae;
+  font-size: 24px;
+  font-family: Inria Sans, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-6 {
+  width: 224px;
+  height: 38px;
+  color: #095788d6;
+  font-size: 32px;
+  font-family: Fira Sans Condensed, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-7 {
-  width: 161px;
-  height: 39px;
-  color: #1799f7;
-  font-size: 36px;
-  font-family: JejuGothic, "Regular";
+  width: 327px;
+  height: 58px;
+  color: #535cae;
+  font-size: 24px;
+  font-family: Inria Sans, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-8 {
-  width: 215px;
-  height: 22px;
-  color: #000000;
-  font-size: 20px;
-  font-family: JejuGothic, "Regular";
+  width: 164px;
+  height: 129px;
+  color: #535cae;
+  font-size: 24px;
+  font-family: Inria Sans, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
-
-Event page 
-
-<div class="container--0-">
-  <img src="page 2.png">
-
-.container--0- {
-  position: absolute;
-  left: 188px;
-  top: -520px;
-  width: 440px;
-  height: 956px;
-  background-color: #d9d9d9;
-  justify-content: start;
-  align-items: start;
-}
-.text-0-1-2 {
-  width: 144px;
-  height: 52px;
-  color: #d55858;
-  font-size: 36px;
-  font-family: Tiro Tamil, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-5 {
-  width: 294px;
-  height: 38px;
-  color: #000000;
+.text-0-1-9 {
+  width: 354px;
+  height: 144px;
+  color: #095788d6;
   font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
+  font-family: Fira Sans Condensed, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-10 {
-  width: 165px;
-  height: 38px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
+  width: 224px;
+  height: 180px;
+  color: #535cae;
+  font-size: 24px;
+  font-family: Inria Sans, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-11 {
-  width: 168px;
-  height: 38px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
+  width: 275px;
+  height: 145px;
+  font-size: 24px;
+  font-family: Inria Sans, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
-.text-0-1-12 {
-  height: 46px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Tiro Tamil, "Regular";
+.text--0- {
+  width: 209px;
+  height: 25px;
+  color: #0d3d5bd6;
+  font-size: 64px;
+  font-family: Island Moments, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
-.text-0-1-13 {
-  width: 285px;
-  height: 38px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-14 {
-  width: 241px;
-  height: 38px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-15 {
-  width: 313px;
-  height: 38px;
-  color: #000000;
-  font-size: 32px;
-  font-family: Inclusive Sans, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
+```
 
-Registration page
+PAGE 3
+```
+HTML
+<img
+  src=""
+/>
+<div class="text--0-">
+  DEPARTMENT OF POST GRADUATE STUDIES<br />
+  CORDIALLY INVITES YOU TO
+</div>
+<div class="text--0-">FRESHER’S DAY</div>
+<div class="text--0-">__A GREAT BEGINNING__</div>
+<div class="text--0-">Program Highlights</div>
+<div class="text--0-">
+  Entertainment<br />
+  Games<br />
+  Mr &#x26; Ms Fresher<br />
+  DJ
+</div>
+<div class="text--0-">
+  Organized For First Year <br />
+  B.E.Students
+</div>
 
+CSS
+.text--0- {
+  width: 333px;
+  height: 76px;
+  color: #252626b8;
+  font-size: 32px;
+  font-family: Inria Sans, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+```
+PAGE 4
+```
+HTML
 <div class="container--0-">
-  <img src="page 3.png">
+  <img
+    src=""
+  />
+  <div class="text-0-1-2">
+    We are so very<br />
+    Greatful<br />
+    for you!
+  </div>
+  <div class="text-0-1-3">THANK YOU</div>
+  <img
+    src=""
+  />
+</div>
 
+CSS
 .container--0- {
   position: absolute;
-  left: 651px;
-  top: -520px;
-  width: 440px;
-  height: 956px;
-  background-color: #ffffff;
+  left: -201px;
+  top: -437px;
+  width: 402px;
+  height: 874px;
+  background-color: #c45dad91;
   justify-content: start;
   align-items: start;
 }
 .text-0-1-2 {
-  width: 350px;
-  height: 46px;
-  color: #d85050;
-  font-size: 32px;
-  font-family: Tiro Tamil, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-4 {
-  width: 72px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-11 {
-  width: 54px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-12 {
-  width: 90px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-13 {
-  width: 94px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-14 {
-  width: 134px;
-  height: 48px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-16 {
-  width: 102px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-18 {
-  width: 146px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-19 {
-  width: 65px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-20 {
-  width: 120px;
-  height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-family: SeoulHangang CBL, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-
-Last page
-
-<div class="container--0-">
-  <img src="page 4.png">
-
-
-.container--0- {
-  position: absolute;
-  left: 1114px;
-  top: -520px;
-  width: 440px;
-  height: 956px;
-  background-color: #ffffff;
-  justify-content: start;
-  align-items: start;
-}
-.text-0-1-2 {
-  width: 319px;
-  height: 104px;
-  color: #a417b6;
-  font-size: 36px;
-  font-family: Tiro Tamil, "Regular";
+  width: 280px;
+  height: 230px;
+  color: #511447;
+  font-size: 64px;
+  font-family: Island Moments, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 .text-0-1-3 {
-  width: 362px;
-  height: 116px;
-  color: #a417b6;
-  font-size: 24px;
-  font-family: Tomorrow, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-4 {
-  width: 328px;
-  height: 170px;
-  color: #4254ca;
-  font-size: 24px;
-  font-family: Tiro Tamil, "Regular";
-  font-weight: 400;
-  text-align: left;
-  vertical-align: top;
-}
-.text-0-1-5 {
-  width: 388px;
-  height: 68px;
-  color: #a417b6;
-  font-size: 24px;
-  font-family: Tiro Tamil, "Regular";
+  width: 336px;
+  height: 77px;
+  color: #4e2343;
+  font-size: 64px;
+  font-family: Irish Grover, "Regular";
   font-weight: 400;
   text-align: left;
   vertical-align: top;
 }
 ```
 # OUTPUT:
-![designed by amiritha](https://github.com/user-attachments/assets/e44a40bc-a5b3-4993-8ca6-96cd4ec76d09)
+
+![image](https://github.com/user-attachments/assets/97bb0f8f-71d3-42f0-a59f-59ba70ee9ec7)
+![image](https://github.com/user-attachments/assets/48793093-00d0-49b6-939c-2ae32685357d)
+![image](https://github.com/user-attachments/assets/849898fa-a2fb-4990-a4c6-e18e1396e15b)
+![image](https://github.com/user-attachments/assets/e0879b99-1ebf-4d29-ae3a-eae46f4666a6)
+
 
 # RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
